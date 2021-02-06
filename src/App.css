@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+  }
+
+h1{
+  color: #f2a154;
+  font-family: "Lucida Console","Courier New", monospace;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  padding: 2%;
+}
+
+
+div {
+  font-family: "Copperplate", "Papyrus",fantasy;
+  font-size: 25px;
+  text-align: center;
+}
+
+p, h3 {
+  font-family: "Times New Roman", "Georgia", serif;
+  font-weight: bolder;
+  font-size: 35px;
+  color: #ff9292;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+span{
+  color: #c70039;
+}
+
+.titleImg{
+
+  width: 95%;
+  height: auto;
+}
+.pic1{
+  position: absolute;
+  width:50%;
+  height: auto;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+}
+
+.dropdown > Dropdown {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  flex-direction: row;
+  height: 35vh;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.footer{
+  color: #c70039;
+  padding: 3%;
+  text-align: right;
+}
