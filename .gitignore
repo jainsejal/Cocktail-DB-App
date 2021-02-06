@@ -10,6 +10,7 @@
 setupTests.js
 manifest.json
 App.test.js
+package-lock.json
 
 # production
 /build
